@@ -32,7 +32,7 @@ class Ejercicio41{
                 if(respuesta != 0){
                     System.out.println("El numero " + numero + " es impar");
                     while(r2 != 1){
-                        System.out.print("Deseea continuar: (y/n) ");
+                        System.out.print("Deseea continuar: (y/n), si pone cualquier caracter se tomará como no.");
                         String respue = teclado.nextLine();
                         if(respue.equals("y")){
                             r2 = 1;
@@ -42,11 +42,12 @@ class Ejercicio41{
                             r2 = 1;
                         } 
                     }
+                    r2 = 0;
                 }
                 else{
                     System.out.println("El numero " + numero + " es par");
                     while(r2 != 1){
-                        System.out.print("Deseea continuar: (y/n) ");
+                        System.out.print("Deseea continuar: (y/n), pone cualquier caracter se tomará como no.");
                         String respue = teclado.nextLine();
                         if(respue.equals("y")){
                             r2 = 1;
@@ -56,6 +57,7 @@ class Ejercicio41{
                             r2 = 1;
                         } 
                     }
+                    r2 = 0;
                 }
             }
             else{
