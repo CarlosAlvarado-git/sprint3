@@ -29,7 +29,7 @@ public class Ejercicio42{
     public static void main(String[] args){
         // n es igual a enésima posición
         int n = 0; 
-        System.out.println("SUSECIÓN DE FIBONACCI ---"); 
+        System.out.println("SUCESIÓN DE FIBONACCI ---"); 
         System.out.println("Ingrese la enésima posición hasta la que quiere imprimir: "); 
         n =  teclado.nextInt();
         System.out.println("");
